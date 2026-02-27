@@ -1,0 +1,25 @@
+# --- Swift / Xcode ---
+# Xcode 프로젝트 설정 및 빌드 파일
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# --- Secrets (보안 파일) ---
+Secrets.xcconfig
+
+# --- Swift Package Manager ---
+# 라이브러리 체크아웃 정보 (용량 방지)
+.build/
+.swiftpm/
+
+# --- macOS ---
+# 맥 시스템 파일
+.DS_Store
+
+# --- 기타 ---
+# 시뮬레이터 로그 등
+*.log
