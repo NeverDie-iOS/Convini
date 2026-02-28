@@ -9,7 +9,7 @@ DerivedData/
 *.moved-aside
 
 # --- Secrets (보안 파일) ---
-Secrets.xcconfig
+**/Secrets.xcconfig
 
 # --- Swift Package Manager ---
 # 라이브러리 체크아웃 정보 (용량 방지)
